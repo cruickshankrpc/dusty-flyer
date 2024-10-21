@@ -1,6 +1,7 @@
 import "./App.scss";
 import bgImg from "./bg-img.jpg";
 import bgPic from "./images/bg-pic.jpg";
+import logo from "./images/DFC-logo.png";
 import { useState } from "react";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
@@ -11,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <div className="relative min-h-screen">
-        // COPYCAT
-        <div>
+        {/* COPYCAT */}
+        {/* <div>
           <img
             src={bgImg}
             className="absolute inset-0 w-full h-full object-cover opacity-80"
@@ -33,14 +34,6 @@ function App() {
                 />
                 <input type="number" placeholder="Phone*" className="input" />
                 <button class="register-button">Register</button>
-                {/* <div className="flex items-stretch space-x-2 flex-grow">
-                <PhoneInput
-                  className="input"
-                  defaultCountry="gb"
-                  value={phone}
-                  onChange={(phone) => setPhone(phone)}
-                />
-              </div> */}
                 <p className="text-small my-4 leading-snug">
                   By signing up you are consenting to receive emails from
                   Frequency Wizards Ltd. We will keep you up to date with any
@@ -49,18 +42,15 @@ function App() {
               </form>
             </div>
           </div>
-        </div>
-        // DFC
+        </div> */}
+        {/* DFC */}
         <div>
-          <div>
-            <img
-              src={bgPic}
-              className="absolute inset-0 w-full h-full object-cover opacity-80"
-            />
-            <div
-              id="register"
-              className="font-broadsheet text-black w-full max-w-md mx-auto py-20 text-center relative"
-            ></div>
+          <img
+            src={bgPic}
+            className="absolute inset-0 w-full h-full object-cover opacity-80"
+          />
+          <div className="flex justify-center">
+            <img className="max-w-xs absolute" src={logo}></img>
           </div>
         </div>
       </div>
