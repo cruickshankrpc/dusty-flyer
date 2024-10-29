@@ -8,8 +8,8 @@ import facebookIcon from "./images/facebook.png";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <img src={bgPic} alt="bg" className="c-bg-img" />
+      <div>
+        <img src={bgPic} alt="bg" className="bg-img" />
         <div className="content">
           <img className="logo" alt="Dusty Flyers' Logo" src={logo}></img>
           <div className="icon-container">
