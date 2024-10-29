@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.505f708a.css",
+    "main.js": "/static/js/main.29697b69.js",
+    "static/js/453.b98aad14.chunk.js": "/static/js/453.b98aad14.chunk.js",
+    "static/media/bg-pic.jpg": "/static/media/bg-pic.5156b4ed1fd7f049f39f.jpg",
+    "static/media/DFC-logo.png": "/static/media/DFC-logo.1ab65e8822c911ba5bcc.png",
+    "static/media/Chantal.ttf": "/static/media/Chantal.d52047061cf857ec1514.ttf",
+    "static/media/instagram.png": "/static/media/instagram.a08842c16bd5338b1b5e.png",
+    "index.html": "/index.html",
+    "main.505f708a.css.map": "/static/css/main.505f708a.css.map",
+    "main.29697b69.js.map": "/static/js/main.29697b69.js.map",
+    "453.b98aad14.chunk.js.map": "/static/js/453.b98aad14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.505f708a.css",
+    "static/js/main.29697b69.js"
+  ]
+}
