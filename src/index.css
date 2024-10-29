@@ -12,13 +12,3 @@ code {
     monospace;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-  font-family: "Broadsheet";
-  src: url('../public/fonts/Broadsheet.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}

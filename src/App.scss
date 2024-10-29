@@ -2,10 +2,24 @@ html {
   background-color: #efd7c6;
 }
 
+@font-face {
+  font-family: 'Chantal';
+  src: local('Chantal'), url(./fonts/Chantal.ttf) format('tff');
+}
+
+body {
+  font-family: "Chantal", sans-serif;
+
+}
+
 .App {
   margin: 0;
   height: 100vh;
   width: 100vw;
+}
+
+.chantal-font {
+  font-family: "Chantal";
 }
 
 .bg-img {
@@ -58,56 +72,4 @@ html {
     }
 
   }
-
-  // .icon:hover {
-  // }
-}
-
-
-
-.input {
-  border-bottom-width: 1px;
-  border-color: black;
-  background: transparent;
-  padding: .5rem 1rem;
-}
-
-.input:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
-.input::placeholder {
-  color: black;
-  opacity: 1;
-}
-
-.input::-moz-placeholder {
-  color: black;
-  opacity: 1;
-}
-
-.input::-webkit-input-placeholder {
-  color: black;
-  opacity: 1;
-}
-
-.input::-ms-input-placeholder  {
-  color: black;
-  opacity: 1;
-}
-
-.input:-ms-input-placeholder {
-  color: black;
-  opacity: 1;
-}
-
-.register-button {
-  cursor: pointer;
-  border-radius: .375rem;
-  opacity: 1;
-  background-color: black;
-  color: white;
-  padding: .5rem 1rem;
-  text-align: center;
 }

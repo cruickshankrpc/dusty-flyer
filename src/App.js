@@ -12,6 +12,7 @@ function App() {
         <img src={bgPic} alt="bg" className="bg-img" />
         <div className="content">
           <img className="logo" alt="Dusty Flyers' Logo" src={logo}></img>
+          <h2>The ride of your life, guaranteed</h2>
           <div className="icon-container">
             <a
               href="https://www.instagram.com/dustyflyersclub/"
