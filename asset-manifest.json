@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.451e80b3.css",
-    "main.js": "/static/js/main.d052eac1.js",
-    "static/js/453.b98aad14.chunk.js": "/static/js/453.b98aad14.chunk.js",
-    "static/media/bg-pic.jpg": "/static/media/bg-pic.5156b4ed1fd7f049f39f.jpg",
-    "static/media/DFC-logo.png": "/static/media/DFC-logo.4bca97283cad5a539111.png",
-    "static/media/Chantal.ttf": "/static/media/Chantal.d52047061cf857ec1514.ttf",
-    "static/media/instagram.png": "/static/media/instagram.a08842c16bd5338b1b5e.png",
-    "index.html": "/index.html",
-    "main.451e80b3.css.map": "/static/css/main.451e80b3.css.map",
-    "main.d052eac1.js.map": "/static/js/main.d052eac1.js.map",
-    "453.b98aad14.chunk.js.map": "/static/js/453.b98aad14.chunk.js.map"
+    "main.css": "/dusty-flyers-club/static/css/main.5199a98c.css",
+    "main.js": "/dusty-flyers-club/static/js/main.9469e508.js",
+    "static/js/453.edaf316a.chunk.js": "/dusty-flyers-club/static/js/453.edaf316a.chunk.js",
+    "static/media/bg-pic.jpg": "/dusty-flyers-club/static/media/bg-pic.5156b4ed1fd7f049f39f.jpg",
+    "static/media/DFC-logo.png": "/dusty-flyers-club/static/media/DFC-logo.4bca97283cad5a539111.png",
+    "static/media/Chantal.ttf": "/dusty-flyers-club/static/media/Chantal.d52047061cf857ec1514.ttf",
+    "static/media/instagram.png": "/dusty-flyers-club/static/media/instagram.a08842c16bd5338b1b5e.png",
+    "index.html": "/dusty-flyers-club/index.html",
+    "main.5199a98c.css.map": "/dusty-flyers-club/static/css/main.5199a98c.css.map",
+    "main.9469e508.js.map": "/dusty-flyers-club/static/js/main.9469e508.js.map",
+    "453.edaf316a.chunk.js.map": "/dusty-flyers-club/static/js/453.edaf316a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.451e80b3.css",
-    "static/js/main.d052eac1.js"
+    "static/css/main.5199a98c.css",
+    "static/js/main.9469e508.js"
   ]
 }
