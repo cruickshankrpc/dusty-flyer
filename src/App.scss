@@ -2,15 +2,11 @@ html {
   background-color: #efd7c6;
 }
 
-@font-face {
-  font-family: 'Chantal';
-  src: local('Chantal'), url(./fonts/Chantal.ttf) format('tff');
-}
+// @font-face {
+//   font-family: 'Chantal';
+//   src: local('Chantal'), url(./fonts/Chantal.ttf) format('truetype');
+// }
 
-body {
-  font-family: "Chantal", sans-serif;
-
-}
 
 .App {
   margin: 0;
@@ -18,9 +14,7 @@ body {
   width: 100vw;
 }
 
-.chantal-font {
-  font-family: "Chantal";
-}
+
 
 .bg-img {
   height: 100vh;
@@ -39,28 +33,40 @@ body {
   height: 100vh;
 
   .logo {
-    max-width: 26rem;
+    max-width: 20rem;
+    margin-top: 5rem;
+  }
+
+  .chantal-font {
+    font-family: "Chantal", sans-serif, "Roboto";
+    font-size: 2rem;
   }
 
   .icon-container {
     display: flex;
-    width: 17rem;
+    width: 15rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .icon {
-    max-height: 3rem;
+    max-height: 2rem;
   }
 
   .email-icon {
-    max-height: 3.5rem;
+    max-height: 2.5rem;
   }
 
   @media only screen and (max-width: 450px) {
     .logo {
       max-width: 18rem;
     }
+
+    .chantal-font {
+      font-family: "Chantal", sans-serif, "Roboto";
+      font-size: 1rem;
+    }
+
     .icon-container {
       width: 13rem;
     }
