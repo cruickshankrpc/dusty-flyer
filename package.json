@@ -1,5 +1,6 @@
 {
-  "name": "dusty-flyer",
+  "homepage": "https://cruickshankrpc.github.io/dusty-flyers-club/",
+  "name": "dusty-flyers-club",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
